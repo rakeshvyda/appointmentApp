@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.appointments {
+  background-color: #ffffff;
+  max-height: 100vh;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 96px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 575px) {
+  .appointments {
+    margin-top: 26px;
+    width: 80%;
+  }
+}
+.heading-container {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 26px;
+}
+@media screen and (max-width: 575px) {
+  .heading-container {
+    width: 90%;
+  }
+}
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+  align-self: flex-start;
+  width: 90%;
+}
+
+.appointments-parent-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 575px) {
+  .appointments-parent-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+.appointment-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (max-width: 575px) {
+  .appointment-form-container {
+    width: 100%;
+  }
+}
+
+.label {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.title-input {
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  height: 36px;
+  padding-left: 20px;
+  flex-grow: 1;
+  width: 50%;
+  margin-bottom: 22px;
+  font-family: 'Roboto';
+  outline: none;
+  width: 300px;
+}
+@media screen and (max-width: 575px) {
+  .title-input {
+    width: 100%;
+  }
+}
+.add-button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+}
+.appointment-image {
+  height: 220px;
+  width: 24vw;
+}
+@media screen and (max-width: 575px) {
+  .appointment-image {
+    display: none;
+  }
+}
+.seaprating-line {
+  border: 1px solid #b5b7c4;
+  width: 80%;
+  margin-bottom: 26px;
+}
+@media screen and (max-width: 575px) {
+  .seaprating-line {
+    width: 90%;
+  }
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 26px;
+}
+@media screen and (max-width: 575px) {
+  .title-container {
+    width: 90%;
+  }
+}
+.appiontment {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+@media screen and (max-width: 575px) {
+  .appiontment {
+    font-size: 20px;
+  }
+}
+.starred-button {
+  background-color: transparent;
+  color: #9897f0;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: 1px solid #9897f0;
+  border-radius: 14px;
+}
+@media screen and (max-width: 575px) {
+  .starred-button {
+    background-color: transparent;
+    color: #9897f0;
+    height: 24px;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid #9897f0;
+    border-radius: 11px;
+  }
+}
+
+.appointment-items-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 575px) {
+  .appointment-items-container {
+    width: 90%;
+  }
+}
+.starredButton {
+  background-color: #9897f0;
+  color: #ffffff;
+}
